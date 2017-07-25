@@ -1,0 +1,44 @@
+html{
+	margin-top: 30px;
+
+}
+
+main{
+	background-color: #07244D ; 
+	color: #E3D611;
+	padding : 10% ;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+}
+
+main h3{
+	font-family: 'Lato', sans-serif;
+	font-size: 2em;
+}
+
+main h4{
+	font-size: 1.8em;
+	font-style: bold;
+}
+
+
+
+
+
+.navbar{
+	padding: 5px;
+	
+	background-color: #0F3366;
+	color: #EEE557;
+}
+
+.active{
+ color: #fd5;
+
+
+}
+
+.categorie{
+	padding: 10px;
+	margin-top: 30px;
+}

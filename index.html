@@ -2,25 +2,189 @@
 <html lang="fr">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>François QUIVRON</title>
+
+	<!--Feuilles de style-->
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/animate.css/animate.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Oswald:600" rel="stylesheet"> 
+
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-//la navbar
-<div class="navbar"><h1>François QUIVRON</h1>
+	<!-- DEBUT - Navbar -->
+	<nav class="navbar navbar-fixed-top navbar-default">
 
-<ul>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-</ul>
+
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand animated bounceIn" href="#">François QUIVRON - Webdev Junior</a>
+			</div>
 
 
 
+			<ul class="nav navbar-nav target-active animated flipInX">
+				<li class=active><a href="#mots-cles">Mots Clés</a></li>
+				<li><a href="#competence">Compétences</a></li>
+				<li><a href="#experiences">Expèriences</a></li>
+				<li><a href="#formation">Formations</a></li>
+				<li><a href="#activites">Activités</a></li>
+				<li><a href="#porteFolio">Porte Folio</a></li>
+				<li><a href="#surLeWeb">Sur le Web</a></li>
+			</ul>
+		</div>
+		
 
-</div>
-	
+	</nav>
+<!-- FIN - Navbar -->
+
+	<main class="main">
+
+		<!-- DEBUT - Mots cles -->
+		<div id="mots-cles" class="categorie  animated fadeInRight">
+			<h3>Mots Clés</h3>
+				<ul>
+					<li>Céer</li>
+					<li>(S')adapter</li>
+					<li>Expérimenter et Innover</li>
+					<li>Qualité</li>
+					<li>(S')améliorrer</li>
+				</ul>
+		</div>
+		<!-- FIN - Mots clef -->
+
+		<!-- DEBUT - Compétences -->
+		<div id="competence" class="categorie animated fadeInLeft">
+			<h3>Mes Compétences</h3>
+				<h4>Développer :</h4>
+					<p>Définir le fonctionnement de l'application / du site WEB
+					Trouver l'outil adapté (Langage, CMS, Frameworks)
+					Concevoir et Développer (HTML, CSS, Javascript, Ruby...)
+					Tester et déboguer
+					Documenter le code et le fonctionnement d'une application
+					Suivre et améliorer après le déploiement
+					Effectuer une veille technologique et réglementaire</p>
+				<h4>Connaissances générales :</h4>
+					<p>Applications bureautiques : Utilisation avancée
+					Application de graphisme : Utilisation avancée de logiciels
+					d'édition de photo, de dessin vectoriel et de mise en page.
+					Suite Adobe, Serif et équivalents libres.
+					Montage d'une Unité centrale, installation et configuration
+					d'application et OS (Windows, Linux)
+					Piloter un projet (organisation, planification, budget, suivi)</p>
+				<h4>Savoir être :</h4>
+					<p>
+					Travailler en équipe, Organiser des réunions, Être à l'écoute				
+					Aimer l'innovation et la nouveauté, toujours évoluer.				
+					Polyvalent, Créatif, Autonome				
+					Anglais (technique et courant): Bonne compréhension à l'écrit,
+					oral scolaire.
+					</p>
+		</div>
+		<!-- FIN - Compétences -->
+
+		<!-- DEBUT - Expèriences -->
+		<div id="experiences" class="categorie animated fadeInRight">
+			<h3>L'informatique dans mes expèrences</h3>
+
+			<ul>
+				<li>2010 - 2016 : Amatis Centre : Téléconseiller
+				Utilisation avancée des outils de bureautique.</li>
+				<li>2006 - 2008 : Valéo : Conseiller Environnement
+				Mise en place d'un fichier Excel avec Macros et Tableaux croisés
+				dynamiques pour le reporting environnement. La rédaction des
+				reporting est passée de 10h à 2h30 : Mise en forme et analyse
+				des données Environnementales : finances, objectifs, quantités de déchets...
+				Réalisation d'affichages de sensibilisations.</li>
+				<li>2006 : Mairie de Châteauroux : Rédaction d'un document unique
+				(Analyse des risques et actions correctives)</li>
+				<li>Depuis 2012 : Bénévolement : Réalisation des affiches du marathon du
+				jeu. Gestion du mailing, et du logiciel de comptage de points
+				(Excel + VBA)
+				</li>
+				<li>Depuis 2008 : Bénévolement : Gestion de la page Facebook d'une
+				activité jeux de société.
+				</li>
+			</ul>
+		</div>
+		<!-- FIN - Expèriences -->
+
+		<!-- DEBUT - Formation -->
+		<div id="formation" class="categorie animated fadeInLeft">
+			<h3>Mes Formations</h3>
+				<ul>
+					<li>2017 : Formation CodeurWeb18</li>
+					<li>2010 : Formation Télémarketing / Traitement de courriers</li>
+					<li>2009 : Stage long "Créer ou reprendre une entreprise" CCI de l'indre</li>
+					<li>2008 : Responsable Qualité, Sécurité,Environnement (Bac +4)</li>
+					<li>2005 : DEUST Conseiller, Hygiène, Sécurité, Environnement des collectivités. (Bac +2)</li>
+					<li>2001 : Bac Scientifique</li>
+				</ul>
+		</div>
+		<!-- FIN - Formation -->
+
+		<!-- DEBUT - Activités -->
+		<div id="activites" class="categorie animated fadeInRight">
+			<h3>Mes autres activités</h3>
+				<ul>
+					<li>Musique : Instruments à vent</li>
+					<li>Jeux de société : Co-créateur et Co-animateur d'une activité jeux de société en MJCS 
+					et du "Marathon du jeu"</li>
+					<li>Photographie Numérique</li>
+					<li>Peinture Numérique</li>
+					<li>Arts plastiques</li>
+					<li>Arduino et RaspberryPi</li>
+				</ul>
+
+		</div>
+		<!-- FIN - Activités -->
+
+		<!-- DEBUT - Porte Folio -->
+		<div id="porteFolio" class="categorie animated fadeInLeft">
+			<h3>Mon porte folio</h3>
+			<p>Je mettrais ici mon porte folio</p>
+		</div>
+		<!-- FIN - Porte Folio -->
+
+		<!-- DEBUT - Me retrouver sur le web -->
+		<div id="surLeWeb" class="categorie animated fadeInRight">
+			<h3>Me retrouver sur le web</h3>
+			<p>Je vais mettre ici les boutons réseau sociaux</p>
+		</div>
+		<!-- FIN - Me retrouver sur le web -->
+
+
+
+
+
+	</main>
+
+	<footer>
+		Formuaire de contact
+
+		<p>Produit et déployé par François QUIVRON</p>
+	</footer>
+
+	<!-- lancement des scripts - installés via BOWER -->
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="bower_components/letteringjs/jquery.lettering.js"></script>
+	<!-- lancement des scripts - persos -->
+	<script src="js/smoothScroll.js"></script>
+
+
+
+
+
+		
 </body>
 </html>
+
+
+
+
+
+
+
